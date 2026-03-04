@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import TodoInput from "./components/TodoInput";
 import Todolist from "./components/Todolist";
-import Navbar from "./components/navbar";
+import Navbar from "./components/ Navbar";
 
 function App() {
   const [todos, setTodos] = useState(() => {
