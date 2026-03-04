@@ -1,6 +1,6 @@
 import TodoItem from "./TodoItem";
 
-function TodoList({ todos, deleteTask, toggleComplete, editTask }) {
+function Todolist({ todos, deleteTask, toggleComplete, editTask }) {
   return (
     <ul className="space-y-3">
       {todos.map((todo) => (
@@ -16,4 +16,4 @@ function TodoList({ todos, deleteTask, toggleComplete, editTask }) {
   );
 }
 
-export default TodoList;
+export default Todolist;
